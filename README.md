@@ -19,6 +19,8 @@ brew wget \
 asdf \
 warp \
 ffmpeg \
+tree \
+curl
 ```
 
 ```
