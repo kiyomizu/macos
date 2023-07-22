@@ -20,13 +20,15 @@ asdf \
 warp \
 ffmpeg \
 tree \
+coreutils \
 curl
 ```
 
 ### asdf の PATH を通す
+https://asdf-vm.com/guide/getting-started.html
 ```
-% echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.zshrc
-% source ~/.zshrc
+$ echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
+$ source ~/.zshrc
 ```
 
 ### asdf - nodejs
