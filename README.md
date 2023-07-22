@@ -15,7 +15,11 @@
 - Nas Navigator 2
 
 ## brew
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+https://brew.sh/index_ja
+```bash
+$ xcode-select --install
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 	Next Steps の2行を実行
 iPrint&Scan Push Scan Tool
 
