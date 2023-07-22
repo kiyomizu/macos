@@ -1,18 +1,20 @@
 # Mac 再インストール
-Chrome
-Google 日本語入力
-Docker
-Toolbox
-Adobe cc
-Logicool
-ESET
-GeekBench6
-Karabinar キーボードJIS対応
-Command Line Tools => Git
-Google Drive
-libreOffice
-Nas Navigator 2
-brew
+
+- Chrome
+- Google 日本語入力
+- Docker
+- Toolbox
+- Adobe cc
+- Logicool
+- ESET
+- GeekBench6
+- Karabinar キーボードJIS対応
+- Command Line Tools => Git
+- Google Drive
+- libreOffice
+- Nas Navigator 2
+
+## brew
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	Next Steps の2行を実行
 iPrint&Scan Push Scan Tool
