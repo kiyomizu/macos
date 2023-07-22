@@ -23,15 +23,23 @@ tree \
 curl
 ```
 
+## asdf
 ```
+% echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.zshrc
+% source ~/.zshrc
+```
+
 # nodejs
+```
 asdf plugin add nodejs
 asdf install nodejs latest
 asdf global nodejs latest
 corepack enable
 asdf reshim nodejs
+```
 
-# php
+## php
+```
 asdf plugin add php
 mkdir ~/.asdf/installs/php
 ln -s /opt/homebrew/opt/php ~/.asdf/installs/php/8.2
@@ -67,7 +75,7 @@ postman \
 firefox \
 path-finder \
 microsoft-remote-desktop \
-keka \
+keka
 ```
 
 Apple Store
