@@ -23,13 +23,13 @@ tree \
 curl
 ```
 
-## asdf
+### asdf の PATH を通す
 ```
 % echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.zshrc
 % source ~/.zshrc
 ```
 
-# nodejs
+### asdf - nodejs
 ```
 asdf plugin add nodejs
 asdf install nodejs latest
@@ -38,7 +38,7 @@ corepack enable
 asdf reshim nodejs
 ```
 
-## php
+### asdf - php
 ```
 asdf plugin add php
 mkdir ~/.asdf/installs/php
