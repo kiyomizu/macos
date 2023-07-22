@@ -14,12 +14,38 @@
 - libreOffice
 - Nas Navigator 2
 
-## brew
+## brew install
 https://brew.sh/index_ja
 ```bash
 $ xcode-select --install
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
+$ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+
+### インストール
+https://formulae.brew.sh/cask/
+```
+$ brew install php
+$ brew install php@8.1
+```
+
+### brew cask
+```
+$ brew install --cask docker \
+google-chrome \
+eset-cyber-security \
+jetbrains-toolbox \
+google-drive \
+libreoffice \
+expressvpn \
+visual-studio-code \
+keyboardcleantool \
+epic-games
+
+brew install libreoffice-language-pack --language=ja
+```
+
 	Next Steps の2行を実行
 iPrint&Scan Push Scan Tool
 
