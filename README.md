@@ -14,8 +14,8 @@ https://formulae.brew.sh/cask/
 ```
 $ brew install php \
 php@8.1 \
-brew composer \
-brew wget \
+composer \
+wget \
 asdf \
 warp \
 ffmpeg \
