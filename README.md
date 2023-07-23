@@ -18,7 +18,6 @@ php@8.1 \
 composer \
 wget \
 asdf \
-warp \
 ffmpeg \
 tree \
 coreutils \
@@ -78,6 +77,7 @@ postman \
 firefox \
 path-finder \
 microsoft-remote-desktop \
+warp \
 keka
 ```
 
