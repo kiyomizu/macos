@@ -21,7 +21,8 @@ asdf \
 ffmpeg \
 tree \
 coreutils \
-curl
+curl \
+awscli
 ```
 
 ### asdf の PATH を通す
